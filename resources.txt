@@ -1,0 +1,6 @@
+https://www.npmjs.com/package/framer-motion
+
+https://www.framer.com/examples/card-swipe/
+
+https://mui.com/material-ui/material-icons/
+

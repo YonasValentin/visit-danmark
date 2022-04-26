@@ -1,5 +1,7 @@
 import { NavLink } from 'react-router-dom';
 import CompanyLogo from '../assets/img/visitdenmark-small-logo.svg';
+import Mess from '../assets/img/Mess.png';
+import Profile from '../assets/img/Profile.png';
 
 export default function Nav() {
   return (
@@ -7,8 +9,12 @@ export default function Nav() {
       <NavLink to='#'>
         <img src={CompanyLogo} alt='logo-icon'></img>
       </NavLink>
-      <NavLink to='#'></NavLink>
-      <NavLink to='#'></NavLink>
+      <NavLink to='#'>
+        <img src={Mess} alt='mess-icon'></img>
+      </NavLink>
+      <NavLink to='#'>
+        <img src={Profile} alt='profile-icon'></img>
+      </NavLink>
     </nav>
   );
 }

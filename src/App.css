@@ -95,12 +95,12 @@ h1 {
 
 /* ---------- nav  ---------- */
 nav {
-  border-top: 1px solid #052c51;
+  border-top: 1px solid lightgrey;
   padding: 24px 0;
   display: flex;
   justify-content: center;
-  gap: 32px;
-  width: 100vw;
+  gap: 96px;
+  width: 100%;
   background-color: white;
   position: fixed;
   bottom: 0;
@@ -110,4 +110,28 @@ nav {
 
 nav a {
   text-decoration: none;
+}
+
+.discover__buttons-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 24px;
+}
+.discover__icon {
+  padding: 16px;
+  width: 24px;
+  height: 24px;
+  border-radius: 50%;
+  background-color: white;
+}
+
+.icon-close {
+  color: grey;
+}
+.icon-reply {
+  color: yellow;
+}
+.icon-favorite {
+  color: red;
 }

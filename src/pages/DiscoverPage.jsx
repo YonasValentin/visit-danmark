@@ -2,6 +2,7 @@ import VisitDenmark from '../assets/img/VisitDenmark-hvid.png';
 import CloseIcon from '@mui/icons-material/Close';
 import ReplayIcon from '@mui/icons-material/Replay';
 import FavoriteIcon from '@mui/icons-material/Favorite';
+import Cards from '../components/Cards';
 
 function DiscoverPage() {
   return (
@@ -13,6 +14,7 @@ function DiscoverPage() {
       ></img>
       <h1 className='discover__heading'>Discover</h1>
       <div className='discover__buttons-container'>
+        <Cards />
         <CloseIcon className='discover__icon icon-close' />
         <ReplayIcon className='discover__icon icon-replay' />
         <FavoriteIcon className='discover__icon icon-favorite' />

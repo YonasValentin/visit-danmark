@@ -3,6 +3,36 @@
   src: url(./assets/font/visitdenmark-bold.woff);
 }
 
+@font-face {
+  font-family: visitdenmark-extrabold;
+  src: url(./assets/font/visitdenmark-extrabold.woff);
+}
+
+@font-face {
+  font-family: visitdenmark-medium;
+  src: url(./assets/font/visitdenmark-medium.woff);
+}
+
+@font-face {
+  font-family: visitdenmark-outline-medium;
+  src: url(./assets/font/visitdenmark-outline-medium.woff);
+}
+
+@font-face {
+  font-family: visitdenmark-outline-regular;
+  src: url(./assets/font/visitdenmark-outline-regular.woff);
+}
+
+@font-face {
+  font-family: visitdenmark-regular;
+  src: url(./assets/font/visitdenmark-regular.woff);
+}
+
+@font-face {
+  font-family: visitdenmark-semibold;
+  src: url(./assets/font/visitdenmark-semibold.woff);
+}
+
 .App {
   text-align: center;
 }

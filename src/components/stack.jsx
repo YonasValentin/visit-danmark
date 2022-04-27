@@ -5,8 +5,6 @@ import { Card } from './Card';
 // basic default styles for container
 const Frame = styled.div`
   width: 100%;
-  height: 400px;
-  overflow: hidden;
   display: flex;
   justify-content: center;
   align-items: center;

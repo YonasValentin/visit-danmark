@@ -7,10 +7,6 @@ import { Stack } from '../components/Stack';
 import styled from '@emotion/styled';
 
 function DiscoverPage() {
-  const Wrapper = styled(Stack)`
-    background: #1f2937;
-  `;
-
   const Item = styled.div`
     background: #f9fafb;
     width: 200px;
@@ -36,7 +32,7 @@ function DiscoverPage() {
         alt='visitdenmark-logo'
       ></img>
       <h1 className='discover__heading'>Discover</h1>
-      <Wrapper onVote={(item, vote) => console.log(item.props, vote)}>
+      <Stack onVote={(item, vote) => console.log(item.props, vote)}>
         <Item data-value='waffles' whileTap={{ scale: 1.15 }}>
           🧇
         </Item>
@@ -46,7 +42,7 @@ function DiscoverPage() {
         <Item data-value='donuts' whileTap={{ scale: 1.15 }}>
           🍩
         </Item>
-      </Wrapper>
+      </Stack>
       <div className='discover__buttons-container'>
         <CloseIcon className='discover__icon icon-close' />
         <ReplayIcon className='discover__icon icon-replay' />

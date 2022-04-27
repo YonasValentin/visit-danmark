@@ -5,16 +5,18 @@ import Profile from '../assets/img/Profile.png';
 
 export default function Nav() {
   return (
+    
     <nav>
-      <NavLink to='#'>
+      <NavLink to='/'>
         <img src={CompanyLogo} alt='logo-icon'></img>
       </NavLink>
-      <NavLink to='#'>
+      <NavLink to='/person'>
         <img src={Mess} alt='mess-icon'></img>
       </NavLink>
-      <NavLink to='#'>
+      <NavLink to='/lonely'>
         <img src={Profile} alt='profile-icon'></img>
       </NavLink>
     </nav>
+    
   );
 }

@@ -36,18 +36,18 @@ function DiscoverPage() {
         alt='visitdenmark-logo'
       ></img>
       <h1 className='discover__heading'>Discover</h1>
+      <Wrapper onVote={(item, vote) => console.log(item.props, vote)}>
+        <Item data-value='waffles' whileTap={{ scale: 1.15 }}>
+          🧇
+        </Item>
+        <Item data-value='pancakes' whileTap={{ scale: 1.15 }}>
+          🥞
+        </Item>
+        <Item data-value='donuts' whileTap={{ scale: 1.15 }}>
+          🍩
+        </Item>
+      </Wrapper>
       <div className='discover__buttons-container'>
-        <Wrapper onVote={(item, vote) => console.log(item.props, vote)}>
-          <Item data-value='waffles' whileTap={{ scale: 1.15 }}>
-            🧇
-          </Item>
-          <Item data-value='pancakes' whileTap={{ scale: 1.15 }}>
-            🥞
-          </Item>
-          <Item data-value='donuts' whileTap={{ scale: 1.15 }}>
-            🍩
-          </Item>
-        </Wrapper>
         <CloseIcon className='discover__icon icon-close' />
         <ReplayIcon className='discover__icon icon-replay' />
         <FavoriteIcon className='discover__icon icon-favorite' />

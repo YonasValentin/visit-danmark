@@ -17,6 +17,5 @@ export default function Nav() {
         <img src={Profile} alt='profile-icon'></img>
       </NavLink>
     </nav>
-    
   );
 }

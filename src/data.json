@@ -1,0 +1,86 @@
+[
+  {
+    "id": 0,
+    "name": "Karl",
+    "distance": "Developer",
+    "age": 26,
+    "image": "1.jpg",
+    "category": "restaurant.png",
+    "likedUsers": [],
+    "superLikedUsers": [],
+    "dislikedUsers": [],
+    "likedBy": []
+  },
+  {
+    "id": 1,
+    "name": "Grappa",
+    "distance": "1 km away",
+    "distanceIcon": "distance.png",
+    "image": "https://gdkfiles.visitdenmark.com/files/484/227559_grappa-piccolo-aarhus2.jpg?width=1024",
+    "category": "restaurant.png",
+    "likedUsers": [],
+    "superLikedUsers": [],
+    "dislikedUsers": [],
+    "likedBy": []
+  },
+  {
+    "id": 2,
+    "name": "Emily",
+    "distance": "Actress",
+    "age": 35,
+    "image": "https://asset.dr.dk/imagescaler/?protocol=https&server=www.dr.dk&file=%2Fimages%2Fother%2F2019%2F11%2F14%2F1.jpeg&scaleAfter=crop&quality=70&w=720&h=480",
+    "category": "restaurant.png",
+    "likedUsers": [],
+    "superLikedUsers": [],
+    "dislikedUsers": [],
+    "likedBy": []
+  },
+  {
+    "id": 3,
+    "name": "Michael",
+    "distance": "Manager",
+    "age": 45,
+    "image": "https://cdn.lorry.bazo.dk/images/bcd07b0b-dea9-4c6b-90ef-e4713537724a/d/16-9/s/2048",
+    "category": "restaurant.png",
+    "likedUsers": [],
+    "superLikedUsers": [],
+    "dislikedUsers": [],
+    "likedBy": []
+  },
+  {
+    "id": 4,
+    "name": "Dwight",
+    "distance": "Sales",
+    "age": 40,
+    "image": "https://k9-drupal-images.k.dk/k9-drupal-images.k.dk/styles/body_inline/s3/2021-11/ken-jensen_ouch.jpg?itok=4zuPq_yX",
+    "category": "restaurant.png",
+    "likedUsers": [],
+    "superLikedUsers": [],
+    "dislikedUsers": [],
+    "likedBy": []
+  },
+  {
+    "id": 5,
+    "name": "Jessica",
+    "distance": "Actress",
+    "age": 37,
+    "image": "https://webwoman.dk/wp-content/uploads/giraf.jpg",
+    "category": "restaurant.png",
+    "likedUsers": [],
+    "superLikedUsers": [],
+    "dislikedUsers": [],
+    "likedBy": []
+  },
+  {
+    "id": 6,
+    "name": "Alexandra",
+    "distance": "Actress",
+    "age": 32,
+    "image": "https://bakkehaverne.dk/____impro/1/onewebmedia/NICON%20abe.jpg?etag=%227921f-5f3cf534%22&sourceContentType=image%2Fjpeg&ignoreAspectRatio&resize=232%2B309&extract=0%2B0%2B232%2B297&quality=85",
+    "category": "restaurant.png",
+    "likedUsers": [],
+    "superLikedUsers": [],
+    "dislikedUsers": [],
+    "likedBy": []
+  }
+]

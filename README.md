@@ -1,3 +1,16 @@
+## Links til vores research  
+
+Agile Retrospective (https://miro.com/app/board/uXjVO7n6LSM=/?share_link_id=760256391054)
+
+Product Roadmap (https://miro.com/app/board/uXjVO_Z08Pw=/?share_link_id=428897502304)
+
+Budget estimation sheet (https://efif-my.sharepoint.com/:x:/r/personal/eaakdka_students_eaaa_dk/Documents/budget.xlsx?d=w07f6ecfb9aa248ce9701abe83cdae2b8&csf=1&web=1&e=uawPl2)
+
+Prototype Figma (https://www.figma.com/file/xFoVewUGWDJyuieOkpOh0m/Visit-Danmark?node-id=0%3A1)
+
+Running prototype (http://digital-agency.kevinkausch.dk/)
+
+
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).

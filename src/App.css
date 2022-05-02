@@ -244,21 +244,29 @@ ol, ul {
 #liked-people {
 	margin: auto;
 	overflow: hidden;
+  text-align: center;
 }
 
 #liked-people .liked-person {
+  margin: auto;
 	display: inline-block;
-	width: 33%;
+	width: 40%;
 	margin-top: 10px;
+  box-shadow: 0 2px 5px 0 rgba(0, 0, 0, 0.25);
+  border-radius: 20px;
+  text-align: center;
+  padding: 5px;
+  justify-content: space-around;
 }
 
 #liked-people .liked-person-image {
-	border-radius: 5px;
+	border-radius: 0;
+  justify-content: space-between;
 }
 
 #liked-people .liked-person-image img {
-	width: 140px;
-	height: 100px;
+	width: 100%;
+	height: 100%;
 	object-fit: cover;
 	object-position: 50% 50%;
 }

@@ -19,8 +19,9 @@ const LikedPerson = ({ person }) => {
 return (
   <div className="liked-person">
     <div className="liked-person-image">
-    <img src={image} alt={name} />
+    <img src={image} alt={name} />  
     </div>
+    <p>{name}</p>
   </div>
 )
 };
